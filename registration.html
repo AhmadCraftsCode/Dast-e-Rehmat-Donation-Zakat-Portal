@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                DAST-E-REHMAT 
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="about.html" target="_self">About Us</a></li>
+                <li><a href="registration.html" target="_self">Join Us</a></li>
+                <li><a href="calculator.html" class="donate" target="_self">Calculator</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form-container">
+       
+        <h2>Registration Form</h2>
+        <form action="submission.html" method="post">
+            <div class="input-group">
+                <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Enter First Name" required>
+            </div>
+            <div class="input-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter Last Name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            </div>
+            <div class="input-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            </div>
+            <div class="input-group">
+                <label for="country">Select a Country</label>
+                <select id="country" name="country">
+                    <option value="pakistan">Pakistan</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I Accept the terms and conditions</label>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <br>
+
+</body>
+<footer>
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+1234567890">+92 3455555554</a></p>
+    <p>Email: <a href="dast4u@gmail.com" >dast4u@gmail.com</a></p>
+    <p>Address: <a href="https://www.google.com/maps/@31.6956733,74.2474521,15z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">14c DHA Lahore Cantt</a></p>
+</footer>
+</html>

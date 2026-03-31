@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.navbar {
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+  background-color: black; 
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.logo{
+  color: #ff9900;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar .logo img {
+  width: 70px; 
+  height: auto;
+}
+
+.navbar .nav-links {
+  
+  display: flex;
+  gap: 150px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+
+.donate{
+  background-color: #ffa800; 
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.donate:hover {
+  background-color: #ffa800; 
+}
+
+footer {
+  box-sizing: border-box;
+  background-color: #171010; 
+  color: white;
+  text-align: center;
+  padding: 4px 20px; 
+  width: 100%;
+  bottom: 0;
+  
+}
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+footer a {
+  color: #ff9900; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff6600; 
+}
+
+.donate{
+  background-color: #ffa800; 
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.donate:hover {
+  background-color: #ffa800; 
+}
+
+.donation-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.donation-section h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.donation-cards {
+  display: flex;
+  flex-direction: column; /* Column layout for boxes */
+  align-items: center;
+  gap: 20px; /* Space between boxes */
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 18px;
+  padding: 20px;
+  width: 400px; /* Increased width */
+  height: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: center; /* Align content to center */
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+ 
+
+

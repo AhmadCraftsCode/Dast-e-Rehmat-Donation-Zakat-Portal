@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" >
+    <link rel="stylesheet" href="headerAndFooter.css">
+</head>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            DAST-E-REHMAT 
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="about.html" target="_self">About Us</a></li>
+            <li><a href="registration.html" target="_self">Join Us</a></li>
+            <li><a href="calculator.html" class="donate" target="_self">Calculator</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    
+    <!-- Full-page Background Image -->
+    <div class="background">
+        <!-- Heading and Tagline Box -->
+        <div class="heading-box">
+            <h1>Zakat Calculator</h1>
+            <p>Let's donate which is Obligatory</p>
+        </div>
+    </div>
+    <!-- Information below Image -->
+    <div class="headings">
+        <h2>
+            Calculate Your Zakat Easily
+        </h2>
+    </div>
+
+    <div class="information">
+        <p>
+            Islamic Relief aims to make the process of calculating zakat as simple as possible. We have broken down the calculation process into zakatable assets (gold, silver, cash, savings, business assets etc.) and deductible liabilities (money you owe, other outgoings due) so you can calculate the zakat you owe easily.
+        </p>
+        <p>
+            The amount of zakat you need to pay will be determined once you have calculated the value of your net assets. You then need to see whether your net assets are equal to, or exceed, the Nisab threshold.
+        </p>
+        
+    </div>
+
+    <!-- Input form -->
+    <div class="form">
+        <form>
+            <div class="statements">
+                Select currency
+            </div>
+            <select class="inputs">
+                <option>UK Pounds £</option>
+                <option>US Dollars $</option>
+                <option>Euro €</option>
+                <option>Rupees PKR</option>
+            </select><br><br>
+
+            <div class="statements">
+                Nisab (updated 07/03/2024):
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Value of Gold
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Value of Silver
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="sections">
+                <h3>Cash</h3>
+            </div><br>
+            
+            <div class="statements">
+                In hand and in bank accounts
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Deposited for some future purpose, e.g. Hajj
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Given out in loans
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Business investments, shares, saving certificates, pensions funded by money in one’s possession
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="sections">
+                <h3>Trade goods</h3>
+            </div><br>
+
+            <div class="statements">
+                Value of stock
+            </div>
+            <div>
+                <input type="number" step="any" value="0" class="inputs" min="0" required>
+            </div><br>
+
+            <div class="sections">
+                <h3>Liabilities</h3>
+            </div><br>
+
+            <div class="statements">
+                Borrowed money, goods bought on credit
+            </div>
+            <div>
+                <input type="number" class="inputs" step="any" value="0" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Wages due to employees
+            </div>
+            <div>
+                <input type="number" class="inputs" step="any" value="0" min="0" required>
+            </div><br>
+
+            <div class="statements">
+                Taxes, rent, utility bills due immediately
+            </div>
+            <div>
+                <input type="number" class="inputs" step="any" value="0" min="0" required>
+            </div><br>
+
+            <button type="submit" id="submitButton" class="myButtons" name="submitButton">Submit</button>
+
+            <button type="reset" id="resetButton" class="myButtons" name="resetButton">Reset</button>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:+1234567890">+92 3455555554</a></p>
+    <p>Email: <a href="dast4u@gmail.com" >dast4u@gmail.com</a></p>
+    <p>Address: <a href="https://www.google.com/maps/@31.6956733,74.2474521,15z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">14c DHA Lahore Cantt</a></p>
+  </footer>
+</html>
+
